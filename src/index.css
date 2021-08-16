@@ -10,4 +10,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+.App{
+  background-color: #060606;
+  color: 
+  #7afef0
+}
+.navbar{
+  justify-content: left;
+  padding: 20px;
+}
+.my_pic_and_cap{
+  display: flex;
+  justify-content: center;
+ 
+}
+.animated_text{
+  font-size: xx-large !important;
+  font-family: 'Courier New', Courier, monospace!important;
+  font-weight: normal !important;
+}
+.nav-link{
+  height: 70px;
+  color: 
+  #7afef0 !important; 
+  font-family: 'Courier New', Courier, monospace!important;
+  font-size: xx-large;
+}
+
+img{
+  height: 500px;
+  width: 500px;
+}
+
+.subject_header{
+  font-weight: normal !important;
+  font-size: xx-large !important;
+  height: 70px;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace!important;
+}
+p.aboutme{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Courier New', Courier, monospace!important;
+  font-size: 20px;
+}
+
+h2.header{
+  font-family: 'Courier New', Courier, monospace!important;
+  font-size: 20px;
 }
