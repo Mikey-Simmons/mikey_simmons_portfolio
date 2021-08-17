@@ -52,8 +52,6 @@ img{
   font-family: 'Courier New', Courier, monospace!important;
 }
 p.aboutme{
-  margin-left: 20%;
-  margin-right: 20%;
   font-family: 'Courier New', Courier, monospace!important;
   font-size: 20px;
 }
@@ -61,4 +59,12 @@ p.aboutme{
 h2.header{
   font-family: 'Courier New', Courier, monospace!important;
   font-size: 20px;
+}
+h1{
+ 
+  font-weight: bold !important;
+  font-family: 'Courier New', Courier, monospace!important
+}
+h1.light{
+  
 }
