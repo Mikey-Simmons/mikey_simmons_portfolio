@@ -49,7 +49,7 @@
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: 'Courier New', Courier,!important;
 }
 
 .nav-logo {
@@ -81,16 +81,15 @@
 .nav-item:hover {
   
   cursor: pointer;
-  color: yellow
+  color: yellow 
 }
 
-.section {
-}
+
 
 .section-dark {
   background-color: #61dafb; ;
   color: black;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: 'Courier New', Courier, !important;
 }
 
 .section-content {
@@ -100,12 +99,23 @@
 }
 a.active{
   color: yellow;
+  text-decoration: none;
 }
 img.tech{
   width: 100px;
   height: 100px;
-  margin: 10px
+  margin: 10px;
+  border-radius: 50%;
 }
+
 .techs{
- 
+
+}
+a.contact{
+  color: black;
+  text-decoration: none;
+}
+a.contact:hover{
+  color: yellow;
+  font-weight: bold;
 }

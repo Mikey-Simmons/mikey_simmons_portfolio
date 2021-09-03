@@ -13,6 +13,7 @@ import about from "./aboutMe.js"
 import contact from "./contactMe.js"
 import resume from "./resume.js"
 import tech from "./technologies.js"
+import projects from "./Projects.js"
 function App(props) {
   return (
     <div className="App">
@@ -30,20 +31,20 @@ function App(props) {
           id="section2"
         />
         <Section
-          title="Technologies"
-          subtitle={tech}
+          title="Projects"
+          subtitle={projects}
           dark={false}
           id="section3"
         />
         <Section
-          title="Contact Info"
+          title="Contact"
           subtitle={contact}
           dark={true}
           id="section4"
         />
         <Section
-          title="Projects"
-          subtitle={dummyText}
+          title="Technologies"
+          subtitle={tech}
           dark={false}
           id="section5"
         />

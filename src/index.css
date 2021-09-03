@@ -28,7 +28,7 @@ code {
 }
 .animated_text{
   font-size: xx-large !important;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: "ink free"!important;
   font-weight: normal !important;
 }
 .nav-link{
@@ -52,19 +52,33 @@ img{
   font-family: 'Courier New', Courier, monospace!important;
 }
 p.aboutme{
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: 'Courier New', Courier, !important;
   font-size: 20px;
 }
 
 h2.header{
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: 'Courier New', Courier,!important;
   font-size: 20px;
 }
 h1{
  
   font-weight: bold !important;
-  font-family: 'Courier New', Courier, monospace!important
+  font-family: 'Courier New', Courier,!important
 }
 h1.light{
   
+}
+.modalimage{
+  width: 798px;
+  height: 500px;
+}
+a.project_link{
+  color: #7afef0;
+  text-decoration: none;
+  font-size: 20px;
+}
+a.project_link:hover{
+  color: yellow;
+  font-weight: bold;
+  cursor: pointer;
 }
