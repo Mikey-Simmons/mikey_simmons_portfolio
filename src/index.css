@@ -57,7 +57,7 @@ p.aboutme{
 }
 
 h2.header{
-  font-family: 'Courier New', Courier,;
+  font-family: 'Courier New', Courier, !important;
   font-size: 20px;
 }
 h1{
