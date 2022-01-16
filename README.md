@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Michael Simmons Portfolio
 
 This is my portfolio website that shows my projects, my resume, and lots of other information about me.  
 
