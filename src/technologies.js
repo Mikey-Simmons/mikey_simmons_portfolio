@@ -21,66 +21,22 @@ import heroku from "./imgs/heroku.png"
 
 const techologies =
     <div className="techs">
-        <a href="https://reactjs.org/">
-            <img className="tech" src={react1}></img>
-            </a>
-            <a href="https://javascript.com/">
-        <img className="tech" src={js}></img>
-        </a>
-        <a href="https://html.com/">
-        <img className="tech" src={html}></img>
-        </a>
-        <a href="https://css-tricks.com/">
-        <img className="tech" src={css}></img>
-        </a>
-        <a href="https://www.python.org/">
-        <img className="tech" src={python}></img>
-        </a>
-        <a href="https://www.djangoproject.com/">
-        <img className="tech" src={django}></img>
-        </a>
-        <a href="https://www.java.com/en/">
-        <img className="tech" src={java}></img>
-        </a>
-        <a href="https://nodejs.org/en/">
-        <img className="tech" src={node}></img>
-        </a>
-        <a href="https://spring.io/projects/spring-boot">
-        <img className="tech" src={spring}></img>
-        </a>
-        <a href="https://expressjs.com/">
-        <img className="tech" src={express}></img>
-        </a>
-        <a href="https://www.mongodb.com/">
-        <img className="tech" src={mongo}></img>
-        </a>
-        <a href="https://github.com">
-        <img className="tech" src={github}></img>
-        </a>
-        <a href="https://sqlite.org/index.html">
-        <img className="tech" src={sqlite}></img>
-        </a>
-        <a href="https://github.com/SeleniumHQ/selenium">
-        <img className="tech" src={selenium}></img>
-        </a>
-        <a href="https://www.mysql.com/">
-        <img className="tech" src={mysql}></img>
-        </a>
-        <a href="https://git-scm.com/">
-        <img className="tech" src={git}></img>
-        </a>
-        <a href="https://aws.amazon.com/">
-        <img className="tech" src={aws}></img>
-        </a>
-        <a href="https://code.visualstudio.com/">
-        <img className="tech" src={vsc}></img>
-        </a>
-        <a href="https://restfulapi.net/">
-        <img className="tech" src={rest}></img>
-        </a>
-        <a href="https://www.heroku.com/">
-        <img className="tech" src={heroku}></img>
-        </a>
+        <ul>Languages:
+            <li className="tech">Python, Java, JavaScript, C#, HTML, CSS</li>
+            
+        </ul>
+        <ul>Databases:
+            <li className="tech">SQL, MySQL, SQLite, MongoDB, MySQL, PostgreSQL</li>
+            
+        </ul>
+        <ul>Frameworks/Libraries:
+            <li className="tech">Django, Flask, Spring Boot, ASP.NET,React.js </li>
+            
+        </ul>
+        <ul>Other Technologies:
+            <li className="tech">AWS, Heroku, Node.js, Express.js, Seleneium, Git, Github,</li>
+            <li className="tech">jQuery, Tomcat, REST, APIs, Visual Studio Code</li>
+        </ul>
 
     </div>;
 

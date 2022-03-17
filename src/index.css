@@ -51,7 +51,7 @@ img{
   font-family: 'Courier New', Courier, monospace!important;
 }
 p.about{
-  font-family: fantasy !important;
+  font-family: Trebuchet MS !important;
   font-size: 20px;
 }
 
@@ -312,8 +312,8 @@ img.tech{
   border-radius: 50%;
 }
 
-.techs{
-
+ul.techs{
+  text-decoration: none;
 }
 a.contact{
   color: black;
@@ -322,4 +322,7 @@ a.contact{
 a.contact:hover{
   color: yellow;
   font-weight: bold;
+}
+li.tech{
+  list-style-type: none
 }
