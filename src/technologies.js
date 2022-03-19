@@ -16,7 +16,7 @@ const techologies =
         </ul>
         <ul>Other Technologies:
             <li className="tech">AWS, Heroku, Node.js, Express.js, Seleneium, Git, Github,</li>
-            <li className="tech">jQuery, Tomcat, REST, APIs, Visual Studio Code</li>
+            <li className="tech">jQuery, Tomcat, REST, APIs, Visual Studio</li>
         </ul>
 
     </div>;
